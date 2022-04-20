@@ -1,1 +1,67 @@
+body {
+   background-color: yellow;
+   margin: 0;
+}
 
+.full-page-container {
+   max-width: 100%;
+   margin: 0em auto 3em auto;
+}
+
+.home-header { 
+    position: relative; 
+    max-width: 100%;
+ }
+ 
+ .home-header-text { 
+    position: absolute; 
+    top: 243px; 
+    left: 0.25em; 
+    width: 100%;
+    color: yellow;
+    font-size: 8em;
+ }
+
+ .mid-section-container {
+
+ }
+
+ .navigation {
+
+ }
+
+ .body-container {
+
+ }
+
+ .latest-release {
+
+ }
+
+ .latest-release-image {
+
+ }
+
+ .latest-release-text {
+
+ }
+
+ .my-musical-journey {
+
+ }
+
+ .my-musical-journey-text {
+
+ }
+
+ .my-musical-journey-image {
+
+ }
+
+ .resources {
+
+ }
+
+ footer {
+    
+ }
