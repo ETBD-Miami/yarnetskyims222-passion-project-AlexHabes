@@ -1,3 +1,5 @@
+/* Overarching Styles */
+
 body {
    background-color: yellow;
    margin: 0;
@@ -7,6 +9,30 @@ body {
    max-width: 100%;
    margin: 0em auto 3em auto;
 }
+
+.mid-section-container {
+
+}
+
+nav {
+
+}
+
+.body-container {
+
+}
+
+footer {
+
+}
+
+
+
+
+
+
+
+/* "Home" Page Styles */
 
 .home-header { 
     position: relative; 
@@ -20,18 +46,6 @@ body {
     width: 100%;
     color: yellow;
     font-size: 8em;
- }
-
- .mid-section-container {
-
- }
-
- .navigation {
-
- }
-
- .body-container {
-
  }
 
  .latest-release {
@@ -60,8 +74,4 @@ body {
 
  .resources {
 
- }
-
- footer {
-    
  }
