@@ -32,7 +32,7 @@ h1 {
    flex-direction: row;
    justify-content: space-between;
    max-width: 1400px;
-   margin: 7.4em auto 4em auto;
+   margin: 7.15em auto 4em auto;
    background-color: orange;
 }
 
@@ -98,13 +98,11 @@ footer ul li a {
 
 /* "Home" Page Styles */
 
-.home-header {
-   
-}
- 
 .home-header-image {
-   position: relative; 
-   max-width: 100%
+   background: url('images/piano-header-image.jpg');
+   background-size: contain;
+   background-attachment: fixed;
+   height: 355px;
 }
 
 .home-header-text { 
