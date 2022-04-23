@@ -67,7 +67,7 @@ nav ul li a {
 
 .body-container {
    min-width: 65em;
-   padding: 0em 2.5em 0.5em 2.5em;
+   padding: 0em 2.5em 0em 2.5em;
    margin: 0em 0em 0em 0.5em;
    background-color: pink;
 }
@@ -143,14 +143,14 @@ footer ul li a {
 }
 
 .latest-release-image {
-   padding: 0.5em 5.75em 0.5em 5.75em;
+   padding: 5.75em 5.75em 5.75em 5.75em;
    margin: 0em 0em 0em 0em;
    background-color: lightblue;
 }
 
 .latest-release-text {
    padding: 0.5em 0em 0.5em 0em;
-   margin: 0em 1em 0em 1em;
+   margin: 0em 0em 0em 1em;
    background-color: lightgreen;
 }
 
@@ -183,6 +183,7 @@ footer ul li a {
 .resources ul {
    display: flex;
    flex-direction: row;
+   padding: 1em 0em 1em 0em;
    margin: 0em 0em 0em 0em;
    background-color: red;
    justify-content: space-around;
@@ -206,7 +207,7 @@ footer ul li a {
 /* "Discography" Page Styles */
 
 h2 {
-
+   margin: 1em 0em 1em 0em;
 }
 
 h3 {
@@ -214,13 +215,31 @@ h3 {
 }
 
 .albums-and-singles {
-
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   background-color: red;
 }
 
 .albums-and-singles-image {
-
+   padding: 5.75em 5.75em 5.75em 5.75em;
+   margin: 0em 0em 0em 0em;
+   background-color: lightblue;
 }
 
 .albums-and-singles-text {
-   
+   margin: 0em 0em 0em 1em;
+   background-color: lightgreen;
+}
+
+.albums-and-singles-text ul {
+
+}
+
+.albums-and-singles-text ul li {
+   list-style-type: decimal;
+}
+
+.albums-and-singles-text ul li a {
+
 }
