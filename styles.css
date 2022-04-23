@@ -11,8 +11,12 @@ body {
 }
 
 .header-block {
+   position: static;
    height: 305px;
    background-color: orange;
+   box-shadow: 0px 10px 7px #4d3200;
+   z-index: 2;
+   /* ^ASK FOR HELP WITH Z-INDEX SO THAT THE HEADER BLOCK OVERLAPS H1 */
 }
 
 h1 { 
@@ -23,8 +27,11 @@ h1 {
    margin: 0em 0em 0em 0em;
    width: 100%;
    color: orange;
+   text-shadow: -7px 10px 7px #4d3200;
    font-size: 8em;
-   font-weight: 300;
+   font-weight: 900;
+   z-index: 1;
+   /* ^ASK FOR HELP WITH Z-INDEX SO THAT THE HEADER BLOCK OVERLAPS H1 */
 }
 
 .mid-section-container {
@@ -103,6 +110,7 @@ footer ul li a {
    background-size: contain;
    background-attachment: fixed;
    height: 355px;
+   box-shadow: 0px -10px 7px #545400 inset;
 }
 
 .home-header-text { 
@@ -112,7 +120,8 @@ footer ul li a {
    width: 100%;
    color: yellow;
    font-size: 8em;
-   font-weight: 800;
+   font-weight: 900;
+   text-shadow: -7px -10px 7px #545400;
 }
 
 .home-mid-section-container {
@@ -196,3 +205,22 @@ footer ul li a {
 
 /* "Discography" Page Styles */
 
+h2 {
+
+}
+
+h3 {
+
+}
+
+.albums-and-singles {
+
+}
+
+.albums-and-singles-image {
+
+}
+
+.albums-and-singles-text {
+   
+}
