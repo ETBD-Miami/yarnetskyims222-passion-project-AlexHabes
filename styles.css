@@ -44,13 +44,13 @@ h1 {
 }
 
 nav {
-   padding: 0em 0em 0em 0em;
+   width: 50em;
    background-color: pink;
 }
 
 nav ul {
    height: 16em;
-   padding: 0em 5em 0em 5em;
+   padding: 0em 0em 0em 0em;
    margin: 0em 0em 0em 0em;
    background-color: red;
 }
@@ -70,6 +70,24 @@ nav ul li a {
    padding: 0em 2.5em 0em 2.5em;
    margin: 0em 0em 0em 0.5em;
    background-color: pink;
+}
+
+h2 {
+   margin: 1em 0em 1em 0em;
+}
+
+h2.with-extra-space-above {
+   margin: 4em 0em 1em 0em;
+}
+
+h3 {
+
+}
+
+span.spotify,
+span.apple-music,
+span.amazon-music {
+   margin-left: 0.35em;
 }
 
 footer {
@@ -142,9 +160,12 @@ footer ul li a {
    background-color: red;
 }
 
-.latest-release-image {
-   padding: 5.75em 5.75em 5.75em 5.75em;
+img.latest-release-image {
+   width: 20em;
+   height: 20em;
    margin: 0em 0em 0em 0em;
+   border: 10px solid black;
+   border-radius: 0em;
    background-color: lightblue;
 }
 
@@ -205,14 +226,6 @@ footer ul li a {
 
 
 /* "Discography" Page Styles */
-
-h2 {
-   margin: 1em 0em 1em 0em;
-}
-
-h3 {
-
-}
 
 .albums-and-singles {
    display: flex;
