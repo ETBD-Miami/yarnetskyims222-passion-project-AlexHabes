@@ -161,8 +161,8 @@ footer ul li a {
 }
 
 img.latest-release-image {
-   width: 20em;
-   height: 20em;
+   width: 18em;
+   height: 18em;
    margin: 0em 0em 0em 0em;
    border-radius: 0em;
    background-color: lightblue;
@@ -178,7 +178,7 @@ img.latest-release-image {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   margin: 5em 0em 5em 0em;
+   margin: 3em 0em 3em 0em;
    background-color: red;
 }
 
@@ -264,3 +264,32 @@ img.albums-and-singles-image {
 
 
 /* "Additional Projects" Page Styles */
+
+
+
+
+
+
+
+/* "Behind the Scenes" Page Styles */
+
+
+
+
+
+
+
+/* "Media Gallery" Page Styles */
+
+.media-gallery-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 3em 0em 0em 0em;
+}
+
+img.media-gallery-images {
+   width: 14em;
+   height: 14em;
+   box-shadow: 10px 10px 30px black
+}
