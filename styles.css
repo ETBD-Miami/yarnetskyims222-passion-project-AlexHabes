@@ -164,14 +164,13 @@ img.latest-release-image {
    width: 20em;
    height: 20em;
    margin: 0em 0em 0em 0em;
-   border: 10px solid black;
    border-radius: 0em;
    background-color: lightblue;
 }
 
 .latest-release-text {
    padding: 0.5em 0em 0.5em 0em;
-   margin: 0em 0em 0em 1em;
+   margin: 0em 0em 0em 2em;
    background-color: lightgreen;
 }
 
@@ -179,7 +178,7 @@ img.latest-release-image {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   margin: 3em 0em 3em 0em;
+   margin: 5em 0em 5em 0em;
    background-color: red;
 }
 
@@ -191,9 +190,9 @@ img.latest-release-image {
 }
 
 .my-musical-journey-image {
-   min-height: auto;
-   min-width: 400px;
-   padding: 0.5em 2em 0.5em 2em;
+   width: 30em;
+   height: 30em;
+   margin: 0em 0em 0em 2em;
    background-color: lightblue;
 }
 
@@ -234,8 +233,9 @@ img.latest-release-image {
    background-color: red;
 }
 
-.albums-and-singles-image {
-   padding: 5.75em 5.75em 5.75em 5.75em;
+img.albums-and-singles-image {
+   width: 12em;
+   height: 12em;
    margin: 0em 0em 0em 0em;
    background-color: lightblue;
 }
@@ -256,3 +256,11 @@ img.latest-release-image {
 .albums-and-singles-text ul li a {
 
 }
+
+
+
+
+
+
+
+/* "Additional Projects" Page Styles */
