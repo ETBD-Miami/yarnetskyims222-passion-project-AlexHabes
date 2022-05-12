@@ -4,6 +4,7 @@ body {
    background-color: yellow;
    margin: 0;
    font-family: 'Rubik', sans-serif;
+   font-size: 12pt;
 }
 
 .full-page-container {
@@ -16,8 +17,6 @@ body {
    height: 305px;
    background-color: orange;
    box-shadow: 0px 10px 7px #4d3200;
-   z-index: 2;
-   /* ^ASK FOR HELP WITH Z-INDEX SO THAT THE HEADER BLOCK OVERLAPS H1 */
 }
 
 h1 { 
@@ -32,8 +31,6 @@ h1 {
    text-shadow: -7px 10px 7px #4d3200;
    font-size: 8em;
    font-weight: 100;
-   z-index: 1;
-   /* ^ASK FOR HELP WITH Z-INDEX SO THAT THE HEADER BLOCK OVERLAPS H1 */
 }
 
 .mid-section-container {
@@ -54,46 +51,68 @@ nav ul {
    height: 16em;
    padding: 0em 0em 0em 0em;
    margin: 0em 0em 0em 0em;
-   background-color: red;
+   background-color: yellow;
 }
 
 nav ul li {
+   border-bottom: 3px dashed black;
    padding: 0.75em 0em 0.75em 0em;
    list-style-type: none;
-   background-color: aquamarine;
+   background-color: yellow;
+}
+
+nav ul li.no-bottom-border {
+   border-bottom: none;
 }
 
 nav ul li a {
+   color: rgb(157, 52, 157);
+   font-size: 17pt;
+   font-weight: 700;
    text-decoration: none;
+}
+
+nav ul li a:hover {
+   color: white;
+   text-shadow: 0px 0px 5px black;
 }
 
 .body-container {
    min-width: 65em;
    padding: 0em 2.5em 0em 2.5em;
    margin: 0em 0em 0em 0.5em;
-   background-color: pink;
+   background-color: yellow;
 }
 
 h2 {
+   font-size: 22pt;
    margin: 1em 0em 1em 0em;
 }
 
 h2.with-extra-space-above {
-   margin: 4em 0em 1em 0em;
+   font-size: 22pt;
+   margin: 3em 0em 1em 0em;
 }
 
 h3 {
-
+   font-size: 15pt;
 }
 
 h3.with-extra-space-above {
-   margin: 4em 0em 1em 0em;
+   font-size: 15pt;
+   margin: 5em 0em 1em 0em;
 }
 
 span.spotify,
 span.apple-music,
 span.amazon-music {
    margin-left: 0.35em;
+}
+
+span.spotify a,
+span.apple-music a,
+span.amazon-music a {
+   color: white
 }
 
 footer {
@@ -109,17 +128,18 @@ footer ul {
    max-width: 1360px;
    margin: 0em auto 0em auto;
    justify-content: space-around;
-   background-color: red;
+   background-color: black;
 }
 
 footer ul li {
    list-style-type: none;
    padding: 0em 0em 0em 0em;
-   background-color: aquamarine;
+   color: yellow;
+   background-color: black;
 }
 
 footer ul li a {
-
+   color: white;
 }
 
 
@@ -163,9 +183,12 @@ h1.home-header-text {
    display: flex;
    flex-direction: row;
    justify-content: center;
-   padding: 0em 1em 0em 1em;
-   margin: 0em 0em 0em 0em;
-   background-color: red;
+   max-width: 48em;
+   padding: 2.5em 1em 2.5em 1em;
+   margin: 0em auto 0em auto;
+   background-color: rgb(157, 52, 157);
+   box-shadow: 5px 5px 30px #545400;
+   border-radius: 5em;
 }
 
 img.latest-release-image {
@@ -173,35 +196,38 @@ img.latest-release-image {
    height: 18em;
    margin: 0em 0em 0em 0em;
    border-radius: 0em;
-   background-color: lightblue;
+   background-color: ;
+   box-shadow: 10px 10px 30px black;
 }
 
 .latest-release-text {
    padding: 0.5em 0em 0.5em 0em;
    margin: 0em 0em 0em 2em;
-   background-color: lightgreen;
+   color: yellow;
+   background-color: ;
 }
 
 .my-musical-journey {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   margin: 3em 0em 3em 0em;
-   background-color: red;
+   margin: 3em 0em 4em 0em;
+   background-color: yellow;
 }
 
 .my-musical-journey-text {
    min-height: auto;
    max-width: 550px;
    padding: 0.5em 0em 0.5em 0em;
-   background-color: lightgreen;
+   background-color: yellow;
 }
 
 .my-musical-journey-image {
    width: 30em;
    height: 30em;
-   margin: 0em 0em 0em 2em;
+   margin: 3.5em 0em 0em 2em;
    background-color: lightblue;
+   border-radius: 4em;
 }
 
 .resources {
@@ -213,17 +239,20 @@ img.latest-release-image {
    flex-direction: row;
    padding: 1em 0em 1em 0em;
    margin: 0em 0em 0em 0em;
-   background-color: red;
+   background-color: yellow;
    justify-content: space-around;
 }
 
 .resources ul li {
    list-style-type: none;
-   background-color: aquamarine;
+   padding: 1em 2.5em 1em 2.5em;
+   box-shadow: 5px 5px 30px #545400;
+   border-radius: 2em;
+   background-color: rgb(157, 52, 157);
 }
 
 .resources ul li a {
-
+   color: white;
 }
 
 
@@ -238,7 +267,7 @@ img.latest-release-image {
    display: flex;
    flex-direction: row;
    align-items: flex-start;
-   background-color: red;
+   background-color: yellow;
 }
 
 img.albums-and-singles-image {
@@ -250,7 +279,7 @@ img.albums-and-singles-image {
 
 .albums-and-singles-text {
    margin: 0em 0em 0em 1em;
-   background-color: lightgreen;
+   background-color: ;
 }
 
 .albums-and-singles-text ul {
@@ -299,5 +328,23 @@ img.albums-and-singles-image {
 img.media-gallery-images {
    width: 14em;
    height: 14em;
-   box-shadow: 10px 10px 30px black
+   box-shadow: 10px 10px 30px black;
+}
+
+
+
+
+
+
+
+/* Adjustments for Small Screens */
+
+@media screen and (max-width: 650px) {
+   nav ul {
+       flex-direction: column;
+       padding: 0 20px;
+   }
+   nav ul li {
+       margin: 10px 0;
+   }
 }
